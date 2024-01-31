@@ -29,20 +29,15 @@ pip install pandas numpy matplotlib seaborn scipy pingouin
 
 <p>
 Download the data from the corresponding Zenodo dataverse:
+<a href="https://zenodo.org/records/10582140?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6ImNjYzhmOWZkLTc0MDQtNDAzNy1hYmQ5LWI4YTM1MjJhZmIwYSIsImRhdGEiOnt9LCJyYW5kb20iOiJiOTY3NTY4M2RiZDEzZjE0ZTM0MTRkYTU5Yjg3NjZkOCJ9.k2S2VvJH3ULDV1nMmh56OL-IcIS9Xz_fX_zpxoJ5SAH9AvSzWUakT1YyvTiNmMMKwW0k2WsY2xlHCxuCGHCm-Q">Zenodo dataverse</a>.
 </p>
 
-```bash
-https://zenodo.org/???
-```
 
 ### Installation
-Provide step-by-step instructions to install and set up your project. Make it as simple as reading a well-structured argument.
-
 <p>
 Clone the repository:
 </p>
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/Alireza-Amani/DeepPercolation_HP2024.git
 ```
