@@ -23,6 +23,10 @@ The scripts are written in Python and require the following packages:
 
 
 ### Prerequisites
+<p>
+It requires a Python version of 3.10 or higher. The following packages are required:
+</p>
+
 ```bash
 pip install pandas numpy matplotlib seaborn scipy pingouin
 ```
