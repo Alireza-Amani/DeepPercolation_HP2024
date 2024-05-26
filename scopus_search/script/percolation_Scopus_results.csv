@@ -1,0 +1,32 @@
+﻿Scopus-10-Analyze-Year
+
+"Your query : (((TITLE(percolation) OR TITLE (drainage) OR TITLE (""groundwater recharge"") ) AND (SRCTITLE (""Journal of Hydrology"") OR SRCTITLE (""Hydrological Processes"") OR SRCTITLE (""Water Resources Research"") OR SRCTITLE (""Advances in Water Resources"") OR SRCTITLE (""Water Resources Management"") OR SRCTITLE (""Hydrology and Earth System Sciences"") OR SRCTITLE (""Hydrological Sciences Journal"") OR SRCTITLE (""Hydrology Research"") OR SRCTITLE (""Water Research"") OR SRCTITLE (""Agricultural Water Management"") OR SRCTITLE(""Hydrogeology Journal"")) AND PUBYEAR > 1999 AND PUBYEAR < 2024 ) AND TITLE-ABS-KEY(SOIL) AND ( LIMIT-TO ( EXACTSRCTITLE,""Journal Of Hydrology"" ) OR LIMIT-TO ( EXACTSRCTITLE,""Water Resources Research"" ) OR LIMIT-TO ( EXACTSRCTITLE,""Hydrological Processes"" ) OR LIMIT-TO ( EXACTSRCTITLE,""Agricultural Water Management"" ) OR LIMIT-TO ( EXACTSRCTITLE,""Hydrology And Earth System Sciences"" ) OR LIMIT-TO ( EXACTSRCTITLE,""Water Research"" ) OR LIMIT-TO ( EXACTSRCTITLE,""Advances In Water Resources"" ) OR LIMIT-TO ( EXACTSRCTITLE,""Water Resources Management"" ) OR LIMIT-TO ( EXACTSRCTITLE,""Hydrological Sciences Journal"" ) ) )"
+
+
+Number of results : 10
+
+"YEAR",
+"2023","32"
+"2022","36"
+"2021","46"
+"2020","25"
+"2019","38"
+"2018","31"
+"2017","25"
+"2016","37"
+"2015","27"
+"2014","23"
+"2013","25"
+"2012","19"
+"2011","8"
+"2010","18"
+"2009","19"
+"2008","13"
+"2007","23"
+"2006","17"
+"2005","22"
+"2004","10"
+"2003","10"
+"2002","15"
+"2001","12"
+"2000","12"
