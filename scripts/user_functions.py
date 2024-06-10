@@ -409,7 +409,7 @@ def validate_series(series, series_name):
     if series.index.tz is None:
         raise ValueError(f"{series_name} must have a timezone aware index")
 
-    if series.index.freq != "H":
+    if series.index.freq != "h":
         raise ValueError(f"{series_name} must have hourly frequency")
 
 def checks_(**kwargs):
