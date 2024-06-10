@@ -50,7 +50,7 @@ class LysimeterEvents:
         specified criteria. The identified events are stored in the events_df
         dataframe.
 
-    id_rainfall_events(prewindow_h : int = 24):
+    id_rainfall_events(prewindow_h : int = 24 * 4, verbose : bool = False):
         Go through the rainfall tseries and identify rainfall events associated
         with the percolation events. The identified rainfall events are stored
         in the rainfall_events_df dataframe.
@@ -952,7 +952,9 @@ def load_events(file_path):
     with open(file_path, "rb") as file:
         return pkl.load(file)
 
-def plot_rectangle_and_text(ax, icol, corr, pval, y_pos, color, half_width, fntsize):
+def plot_rectangle_and_text(
+        ax, icol, corr, pval, y_pos, color, half_width, fntsize, lwdith=3,
+    ):
     '''
     Plot a rectangle with the given correlation coefficient and p-value
 
@@ -981,6 +983,9 @@ def plot_rectangle_and_text(ax, icol, corr, pval, y_pos, color, half_width, fnts
 
     fntsize : int
         Font size for the text annotation
+
+    lwdith : int
+        Line width of the border.
 
     Returns
     -------
@@ -1017,7 +1022,7 @@ def plot_rectangle_and_text(ax, icol, corr, pval, y_pos, color, half_width, fnts
             [icol - add_width/2, icol + add_width/2, icol + add_width/2, icol - add_width/2, icol - add_width/2],
             [y_pos - total_width/2, y_pos - total_width/2, y_pos + total_width/2, y_pos + total_width/2, y_pos - total_width/2],
             color="black",
-            linewidth=2,
+            linewidth=lwdith,
         )
 
 
