@@ -57,7 +57,6 @@ We will limit the search to the following journals:
 # Scopus
 
 <p>
-The resulting queries are saved in the results folder in files that also contain
-the number of articles per year.
+The resulting queries are saved in the same folder as the plotting script.
 </p>
 
