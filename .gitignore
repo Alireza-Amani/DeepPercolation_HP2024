@@ -136,7 +136,3 @@ cython_debug/
 ehthumbs.db
 Thumbs.db
 
-# Custom directories
-results/
-data/
-figures/
