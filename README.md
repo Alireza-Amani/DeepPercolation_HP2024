@@ -6,6 +6,9 @@
 This repository contains the scripts (IPython notebooks) used in a manuscript titled
 "Analyzing Deep Percolation Dynamics: A Lysimeter-Based Study In A Cold Environment".
 
+It is published in the Hydrological Processes journal: 
+<url>https://onlinelibrary.wiley.com/doi/10.1002/hyp.70119?af=R</url>
+
 It includes the following scripts:
 </p>
 
